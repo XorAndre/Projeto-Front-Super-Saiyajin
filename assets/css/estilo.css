@@ -1,0 +1,190 @@
+/**
+Imports
+**/
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+/**
+Reset
+**/
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+img,
+audio,
+video,
+iframe {
+  width: 100%;
+}
+/**
+root
+**/
+:root {
+  background-color: #fff;
+}
+/**
+Controle de textos
+**/
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+}
+.text-center {
+  text-align: center;
+}
+/**
+Containers
+**/
+.container {
+  margin: 0 auto;
+  width: 98%;
+}
+/**
+Grids
+**/
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  padding: 0.9375rem /* 15/16 */;
+}
+@media (min-width: 48em) {
+  [class*="col-"] {
+    float: left;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+/**
+Overlay
+**/
+.overlay {
+  background-color: rgba(65,68,71,0.29);
+  height: 100%;
+  width: 100%;
+}
+/**
+Nav
+**/
+.navbar {
+  position: fixed;
+  right: 0em;
+  width: 5%;
+  z-index: 1;
+}
+.navbar .links {
+  padding: 2em 0;
+}
+.navbar .links .bolinhas {
+  border: 0.04em solid #f1c40f;
+  border-radius: 50%;
+  display: block;
+  height: 1em;
+  margin: 1.8em;
+  padding: 0.46em 0.4em;
+  width: 1em;
+}
+.navbar .links .bolinhas:hover {
+  background-color: #f1c40f;
+  transition: linear 1s background-color;
+}
+/**         
+Header
+**/
+.topo {
+  background-image: url("../img/fundo-header.png");
+  background-color: #2c3e50;
+  background-size: contain;
+  background-position-x: 80%;
+  background-repeat: no-repeat;
+}
+.topo .container {
+  padding: 17em 0;
+}
+.topo h1 {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 5em;
+}
+.topo h1>span {
+  color: #f1c40f;
+}
+.topo p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+}
+.topo h1,
+.topo p {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.topo .topo-img {
+  width: 80%;
+}
+/**
+Main
+**/
+.main .container {
+  padding: 2em 0;
+}
+.main .container h2 {
+  font-size: 2em;
+}
+.main .container h2 {
+  font-size: 1.9em;
+}
+.main .container .blue {
+  color: #2c3e50;
+}
+.main .container h2,
+.main .container h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main .blue-section {
+  background-color: #2c3e50;
+  color: #fff;
+}
