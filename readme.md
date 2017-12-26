@@ -1,4 +1,4 @@
-# Projeto-Front-Super-Sayajin
+# Projeto-Front-Super-Saiyajin
 #### O caminho para se tornar um super-front-end
 
 ![Capa do projeto](capa.jpg)
